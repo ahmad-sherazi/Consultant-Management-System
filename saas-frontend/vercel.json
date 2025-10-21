@@ -9,9 +9,9 @@
   ],
   "framework": "vite",
   "env": {
-    "VITE_SUPABASE_URL": "@supabase_url",
-    "VITE_SUPABASE_ANON_KEY": "@supabase_key",
-    "VITE_BACKEND_URL": "@backend_url"
+    "VITE_SUPABASE_URL": "https://plbcqsmvpauehpodqsxh.supabase.co",
+    "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBsYmNxc212cGF1ZWhwb2Rxc3hoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MDA1MDE4NSwiZXhwIjoyMDc1NjI2MTg1fQ.eLUyiFnvu5swnQPth_jVGdoLMtE3Un6J51GcxDYCmOs",
+    "VITE_BACKEND_URL": "https://consultant-management-system.onrender.com"
   },
   "github": {
     "enabled": true,
