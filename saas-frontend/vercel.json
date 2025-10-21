@@ -1,12 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "vite.config.*",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
-    }
-  ],
   "framework": "vite",
   "env": {
     "VITE_SUPABASE_URL": "https://plbcqsmvpauehpodqsxh.supabase.co",
