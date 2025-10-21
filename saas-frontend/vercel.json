@@ -16,6 +16,5 @@
   "github": {
     "enabled": true,
     "autoJobCancelation": true
-  },
-  "rootDir": "saas-frontend"
+  }
 }
