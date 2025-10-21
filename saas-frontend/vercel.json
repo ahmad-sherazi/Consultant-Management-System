@@ -7,7 +7,9 @@
       "config": { "distDir": "dist" }
     }
   ],
-  "framework": "vite",
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ],
   "env": {
     "VITE_SUPABASE_URL": "@supabase_url",
     "VITE_SUPABASE_ANON_KEY": "@supabase_key",
@@ -16,6 +18,5 @@
   "github": {
     "enabled": true,
     "autoJobCancelation": true
-  },
-  "rootDir": "saas-frontend"
+  }
 }
