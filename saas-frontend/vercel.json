@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "vite.config.*",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ],
+  "framework": "vite",
+  "env": {
+    "VITE_SUPABASE_URL": "@supabase_url",
+    "VITE_SUPABASE_ANON_KEY": "@supabase_key",
+    "VITE_BACKEND_URL": "@backend_url"
+  },
+  "github": {
+    "enabled": true,
+    "autoJobCancelation": true
+  },
+  "rootDir": "saas-frontend"
+}

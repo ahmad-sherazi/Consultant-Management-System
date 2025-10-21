@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: consultant-backend
+    env: node
+    plan: free
+    branch: main
+    rootDir: saas-backend
+    buildCommand: "npm install"
+    startCommand: "npm run dev"
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false
